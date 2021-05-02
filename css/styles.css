@@ -1,0 +1,47 @@
+/* GIFs */
+.gif-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gif {
+  height: 8rem;
+  width: auto;
+}
+.gif-big {
+  height: 12rem;
+  width: auto;
+  margin-top: 4rem;
+}
+
+/* Contacts */
+.contacts li a {
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+.contacts li a.instagram:hover {
+  color: #3b5998;
+}
+.contacts li a.twitter:hover {
+  color: #3b5998;
+}
+
+/* Intro */
+.intro {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 0.25em;
+}
+
+/* Achievements */
+.achieve-list > li {
+  margin-bottom: 1rem;
+}
+
+/* Utilities */
+.reflect {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
