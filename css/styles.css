@@ -1,12 +1,17 @@
 /* GIFs */
 .gif-container {
-  height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .gif {
   height: 8rem;
   width: auto;
+}
+.gif-big {
+  height: 12rem;
+  width: auto;
+  margin-top: 4rem;
 }
 
 /* Contacts */
@@ -26,6 +31,11 @@
   font-weight: 300;
   font-size: 1.5rem;
   margin-bottom: 0.25em;
+}
+
+/* Achievements */
+.achieve-list > li {
+  margin-bottom: 1rem;
 }
 
 /* Utilities */
