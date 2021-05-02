@@ -1,0 +1,37 @@
+/* GIFs */
+.gif-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.gif {
+  height: 8rem;
+  width: auto;
+}
+
+/* Contacts */
+.contacts li a {
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+.contacts li a.instagram:hover {
+  color: #3b5998;
+}
+.contacts li a.twitter:hover {
+  color: #3b5998;
+}
+
+/* Intro */
+.intro {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 0.25em;
+}
+
+/* Utilities */
+.reflect {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
